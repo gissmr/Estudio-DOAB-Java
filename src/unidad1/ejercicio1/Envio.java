@@ -49,7 +49,7 @@ public abstract class Envio {
     public void setPesoBase(double pesoBase) {
 
         if (pesoBase < 0) {
-            throw new IllegalArgumentException("El peso debe ser mayor a 0.")
+            throw new IllegalArgumentException("El peso debe ser mayor a 0.");
         }
         this.pesoBase = pesoBase;
     }
