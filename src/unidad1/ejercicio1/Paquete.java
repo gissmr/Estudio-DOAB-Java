@@ -5,7 +5,7 @@ public class Paquete extends Envio implements Asegurable {
     private int volumen;
     private boolean seguroAlDia, seguroActivo;
 
-    public Paquete() {
+    public Paquete(String s, int i) {
     }
 
     public Paquete(String numeroRastreo, int distancia, double pesoBase, int volumen, boolean seguroAlDia) {
