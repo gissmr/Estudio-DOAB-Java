@@ -25,4 +25,11 @@ public class GestorEnvios {
         }
         return null;
     }
+
+    public void listarEnvios() {
+        System.out.println("--- LISTA COMPLETA DE ENVÍOS ---");
+        for (Envio e : listaEnvios) {
+            System.out.println(e.toString());
+        }
+    }
 }
