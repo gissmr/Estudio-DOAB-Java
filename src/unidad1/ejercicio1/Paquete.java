@@ -56,6 +56,7 @@ public class Paquete extends Envio implements Asegurable {
 
     @Override
     public boolean seguroActivado() {
+
         return seguroActivo;
     }
 
