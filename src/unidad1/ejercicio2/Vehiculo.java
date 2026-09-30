@@ -6,9 +6,6 @@ public abstract class Vehiculo {
     protected int diasArriendo;
     protected double precioBase;
 
-
-
-
     public Vehiculo() {
     }
 
